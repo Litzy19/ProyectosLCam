@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Litzy Camacho R." />
+    <title>Litzy Camacho</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="escritorio.css" media="(min-width: 1280px)">
+</head>
+<body>
+    <header class="header">
+        <h3 class="header__titulo">LGCR</h3>
+    </header>
+
+    <main>
+        <section class="heroe">          
+            <div class="heroe__info">
+                <h1 class="heroe__titulo">Hola, bienvenido a mi portafolio</h1>
+                <p class="heroe__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro expedita sit culpa quis, impedit dolorum dicta obcaecati necessitatibus autem. Necessitatibus facere iste excepturi cum fugiat labore. Velit quo optio unde!</p>
+
+                <div class="heroe__botones">
+                       <a class="boton--rojo" href="https://drive.google.com/uc?id=1GgHiintItYKKfh-4vKmpsKQTuVZmp7dl&export=download">Descargar CV</a>
+                       <a class="boton--blanco" href="#formulario">Contactame</a>
+                 </div>
+               </div>
+              
+               <figure class="heroe__perfil">
+                <img class="heroe__img" src="./imgs/emma.jpg" alt="">
+            </figure>
+
+        </section> <!-- .heroe -->
+        <section class="experiencia">
+            <h2 class="experiencia__titulo">Experto en</h2>
+            <div class="experiencia__contenedor" >
+                <div class="experiencia__objeto">
+                    <h3 class="experiencia-objeto__titulo">Photoshop</h3>
+                    <p class="experiencia-objeto__texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti modi fugiat sit nihil quidem ratione sint molestias aut? Eius ad officia minus rerum tempora quia ipsum magni laboriosam aperiam atque!</p>
+                </div>
+                <div class="experiencia__objeto">
+                    <h3 class="experiencia-objeto__titulo">Php</h3>
+                    <p class="experiencia-objeto__texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto dolores, quas accusamus consectetur dignissimos libero eius, laboriosam porro natus nemo omnis vel voluptates modi odit recusandae cumque! Tempora, excepturi fuga!</p>
+                </div>
+                <div class="experiencia__objeto">
+                    <h3 class="experiencia-objeto__titulo">Phyton</h3>
+                    <p class="experiencia-objeto__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat iste nesciunt esse dolorem quas doloribus magni dolore adipisci quo sed nulla nostrum nisi quasi voluptate enim, animi, quisquam, quia ex.</p>
+                </div>
+            </div>
+            
+        </section> <!-- .experiencia -->
+        <form class="formulario" action="mailto:lgcr1019@gmail.com" id="formulario">
+            <h2 class="formulario__titulo">Contacto</h2>
+            <input type="text" class="formulario__asunto" name= "subject" placeholder="asunto" required>
+            <textarea name="" id="" class ="formulario__mensaje" name="body" placeholder="mensaje" required></textarea>
+            <button type="submit" a class="boton--enviar" href="#">Enviar</button>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <div class = "footer__derechosautor">
+            <p class = "footer__texto">2022 Camacho.</p>
+        </div>
+        <div class = "footer__redes">
+            <figure class = "footer__social-contenedor">
+                <a class="footer__link" href="">
+                    <img class="footer__imagen" src="./imgs/instagram.png" alt="instagram">
+                </a>
+            </figure>
+            <figure class="footer__social-contenedor">
+                <a class="footer__link" href="">
+                    <img class="footer__imagen" src="./imgs/twitter.png" alt="twitter">
+                </a>
+            </figure>
+            <figure class="footer__social-contenedor">
+                <a class="footer__link" href="">
+                    <img class="footer__imagen" src="./imgs/facebook.png" alt="facebook">
+                </a>
+            </figure>
+        </div>
+    </footer>
+</body>
+</html>
